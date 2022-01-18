@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: 'Open Sans','Helvetica Neue',Helvetica, sans-serif;
     line-height: 1.45;
+    font-size: 16px;
 }
 header {
     color: #FFFFFF;
@@ -17,31 +18,41 @@ section {
 .feature {
   background: #FFFFFF;
   color: #000000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin:  0 0 10px 0;
   font-size: 16px;
-  display: inline-block;
-  width: 32%;
 }
+
 .feature,img{
-  width: 40%;
+  width: 100%;
+  min-width: 60px; 
+  margin-right: 20px;  
 }
 .quote {
   background:#549DA0;
   color:#FFFFFF;
+  padding: 30px 0;
+  
 }
 footer {
   background: #353535;
-  padding: 32px 0;
+  padding: 30px 0 10px 0;
   text-align: center;
   color: #868686;
   font-size: 12px;
+
 }
  h1{
-font-size: 40px;
+font-size: 3rem;
 margin: 0 0 16px 0
  }
  h2{
 font-weight: 300;
-font-size: 24px;
+font-size: 1.5em;
 margin: 0 0 16px 0
 
 }
@@ -54,7 +65,7 @@ max-width: 900px;
     display: inline-block;
     color: white;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25em;
     background: #549DA0;
     border: none;
     border-radius: 5px;
@@ -71,10 +82,11 @@ max-width: 900px;
 }
 .blockquote,p{  
   margin: 0 0 5px 0; 
-font-size: 24px;
+  font-size: 18px;
 }
+
 .blockquote,cite{
-  font-size: 16px;
+  font-size: 14px;
     font-style: italic;
 }
 .blockquote,cite:before{
@@ -87,7 +99,8 @@ padding: 0;
 list-style: none;
 }
 .footer,li{
-  display: inline-block;
+  display: block;
+  margin: 5px 0;
 }
 .footer,li,a{
   padding: 6px;
@@ -97,4 +110,11 @@ list-style: none;
 }
 .footer,li,a:hover{
   color: white;
+}
+
+p{
+  font-size: 1.5em;
+}
+html{
+  font-size: 16px;
 }
